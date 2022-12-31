@@ -54,7 +54,7 @@ test: html5lib/testdata/tokenizer/test1.test
 
 # (non-normative) RELAX NG schema for HTML5
 relaxng:
-	svn co http://whattf.svn.cvsdude.com/syntax/trunk/relaxng/ relaxng
+	git clone https://github.com/validator/validator.git
 # The HTML5 spec source
 webapps:
 	svn co http://svn.whatwg.org/webapps webapps
